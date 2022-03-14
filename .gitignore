@@ -1,5 +1,5 @@
 /.idea
-/build
-/.gradle
-/*.class
+*.class
 !gradle
+/.gradle
+/build
