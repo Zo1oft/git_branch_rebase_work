@@ -1,6 +1,7 @@
 package guru.qa;
 
 import com.codeborne.selenide.Configuration;
+import jdk.jfr.Description;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -18,6 +19,7 @@ public class SelenidGithubJunit {
     }
     @AfterAll
     static void afterAll() { closeWebDriver();}
+    @Description("Тест по поиску JUnit5 в Wiki на странице SoftAssertions")
 
     @Test
     void shouldFindJunit5() {
